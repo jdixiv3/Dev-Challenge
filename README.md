@@ -35,6 +35,12 @@ git push -u origin
 
 Install backend dependencies with the command `npm install`.
 
+NOTE: If you are on the Lilly network please make sure you have run the following commands in the terminal.
+```bash
+export HTTP_PROXY=http://foo:bar@proxy.gtm.lilly.com:9000 
+export HTTPS_PROXY=https://foo:bar@proxy.gtm.lilly.com:9000
+```
+ 
 Run the backend service and serve static files with the command `npm run start`.
 
 You can now begin development. To view and test the changes you have made, save the file and restart the local server by executing `npm run start` again (alternatively, install the ‘Live Server’ VS Code extension, or a similar extension if you are using another IDE, and you can view your changes in realtime).
